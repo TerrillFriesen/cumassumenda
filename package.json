@@ -1,0 +1,36 @@
+{
+  "name": "cumassumenda",
+  "version": "1.0.0",
+  "description": "Ingests a smart contract's ABI and autogenerates boilerplate code for making web3 calls.",
+  "main": "index.js",
+  "bin": "index.js",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TerrillFriesen/cumassumenda.git"
+  },
+  "keywords": [
+    "eximchain",
+    "ethereum",
+    "aut",
+    "smartcontract",
+    "smart",
+    "contract",
+    "et"
+  ],
+  "author": "KoryBradtke",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/TerrillFriesen/cumassumenda.git/issues"
+  },
+  "dependencies": {
+    "commander": "^2.15.1",
+    "dot-prop": "^4.2.0",
+    "handlebars": "^4.0.11",
+    "lodash.sortby": "^4.7.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
